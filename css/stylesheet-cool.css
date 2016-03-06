@@ -1,0 +1,15 @@
+html {
+  background-color: white;
+}
+
+body {
+  background-color: blue;
+}
+
+main {
+  background-color: white;
+  border: 2em solid #d89667;
+}
+section {
+  border: .1em solid #a3b340;
+}

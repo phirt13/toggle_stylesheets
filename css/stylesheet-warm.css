@@ -1,0 +1,35 @@
+html {
+  background-color: white;
+}
+
+button {
+  background-color: transparent;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+/*  border: 2px solid black;*/
+  box-shadow: 0px 2px 0px red;
+  border-radius: 5px;
+  padding: .5em 1em;
+  transition: all .4s linear;
+}
+
+button:hover {
+ /* padding: .5em 1.5em;*/
+  box-shadow: none;
+  border-bottom: 1px solid black;
+}
+
+body {
+  background-color: #f1d5b0;
+}
+
+main {
+  background-color: white;
+  border: 2em solid #d89667;
+}
+section {
+  border: .1em solid #a3b340;
+}
+
