@@ -3,13 +3,31 @@ html {
 }
 
 body {
-  background-color: blue;
+  background-color: #3c2b26;
 }
 
 main {
   background-color: white;
-  border: 2em solid #d89667;
+  border: 2em solid #a7ad44;
 }
+
 section {
   border: .1em solid #a3b340;
+}
+
+button {
+  background-color: white;
+  border: 2px solid #fcbb0b;
+  border-radius: 5px;
+  padding: .5em 1em;
+  transition: all .4s linear;
+}
+
+button:hover {
+  background-color: #fcbb0b;
+  padding: .5em 1.5em;
+}
+
+button:focus {
+  outline: 0;
 }

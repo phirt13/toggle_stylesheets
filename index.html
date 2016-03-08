@@ -10,18 +10,15 @@
     <!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/stylesheet-warm.css">
-    <link rel="stylesheet" href="css/stylesheet-cool.css" disabled>
+    <link id="sheetOne" rel="stylesheet" href="css/stylesheet-warm.css">
+    <link id="sheetTwo" rel="stylesheet" href="css/stylesheet-cool.css" disabled>
   </head>
   <body>
+    <button id="toggle-stylesheets">Toggle-Stylesheets</button>
     <main>
-      <button id="toggle-stylesheets">Toggle-Stylesheets</button>
-
       <header>
         <h1>Toggle Stylesheets with JS</h1>
       </header>
-
-
         <article class="demo-article">
           <h3 class="demo-h3">About Red Pandas</h3>
           <p class="demo-p">Red pandas are the only living member of the family Ailuridae, and their taxonomic position has been a subject of much debate. They were first described as belonging to the raccoon family in 1825, and this classification has been controversial ever since. They were placed in the raccoon family (Procyonidae) because of ecological characteristics and morphological similarities of the head, dentures, and ringed tail. Then, due to some agreements in the DNA, they were assigned to the bear family (Ursidae). However, most recent DNA research places red pandas into their own family: Ailuridae. Studies show that they are an ancient species in the order Carnivora, superfamily Musteloidea, and that they are probably most closely related to the group that includes weasels, raccoons, and skunks.</p>
@@ -32,13 +29,9 @@
           Red pandas are solitary except for breeding season, but in zoos most breeding pairs are housed together year-round for enrichment. In the wild, the home range of one animal is about one square mile.</p>
         </article>
     </main>
-
-    <footer>
-    </footer>
-
   </body>
   <!-- JAVASCRIPT –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!-- Check for updated on google developers -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="js/"></script>
+  <script src="js/toggle-vanilla.js"></script>
 </html>
